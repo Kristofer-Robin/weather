@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', cityWeather)
+
 function weatherDataFetch( city ) {
     var key = '94da08fb639a1f05110ab103743a281b'
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}`)
